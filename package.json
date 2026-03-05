@@ -1,0 +1,18 @@
+{
+  "name": "text-renderer",
+  "version": "1.0.0",
+  "description": "Renders text to an image file via an HTTP API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.95",
+    "canvas": "^2.11.2",
+    "fastify": "^4.28.1",
+    "wawoff2": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
